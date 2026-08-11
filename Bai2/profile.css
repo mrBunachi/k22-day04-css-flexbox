@@ -1,0 +1,176 @@
+.profile-wrapper {
+  max-width: 1140px;
+  margin: 4.0rem auto;
+  padding: 0 2.0rem;
+}
+
+.profile-container {
+  display: flex;
+  gap: 4.8rem;
+  align-items: flex-start;
+}
+
+/* Cột trái */
+.left-column {
+  width: 28.0rem;
+  flex-shrink: 0;
+}
+
+.avatar-box {
+  width: 18.0rem;
+  height: 18.0rem;
+  border-radius: 50%;
+  padding: 0.4rem;
+  background: linear-gradient(135deg, #ff1b6b, #45caff);
+  margin-bottom: 1.6rem;
+}
+
+.profile-avatar {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #fff;
+}
+
+.user-name {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 0.4rem;
+}
+
+.user-handle {
+  font-size: 1.4rem;
+  color: #666;
+  margin-bottom: 2.0rem;
+}
+
+.user-stats {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  font-size: 1.3rem;
+  color: #444;
+}
+
+.user-stats li {
+  display: flex;
+  align-items: center;
+  gap: 1.0rem;
+}
+
+.user-stats i {
+  width: 1.6rem;
+  color: #666;
+}
+
+.user-stats a {
+  color: #0066cc;
+  word-break: break-all;
+}
+
+/* Cột phải */
+.right-column {
+  flex: 1;
+}
+
+.profile-tabs {
+  display: flex;
+  gap: 2.4rem;
+  border-bottom: 1px solid #e8e8e8;
+  margin-bottom: 2.4rem;
+}
+
+.tab-item {
+  padding-bottom: 1.2rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #666;
+}
+
+.tab-item.active {
+  color: #292929;
+  border-bottom: 2px solid #292929;
+}
+
+/* Danh sách khóa học dạng hàng ngang */
+.course-list {
+  display: flex;
+  gap: 2.0rem;
+  overflow-x: auto;
+}
+
+.course-card {
+  width: 24.0rem;
+  flex-shrink: 0;
+  border-radius: 1.6rem;
+  overflow: hidden;
+  background-color: #f8f9fa;
+}
+
+.course-thumb {
+  height: 13.0rem;
+  padding: 1.2rem;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.thumb-1 { background: linear-gradient(135deg, #6a11cb, #2575fc); }
+.thumb-2 { background: linear-gradient(135deg, #00c6ff, #0072ff); }
+.thumb-3 { background: linear-gradient(135deg, #f107a3, #7b2ff7); }
+
+.crown-icon { font-size: 1.4rem; color: #ffb703; }
+.thumb-title { font-size: 1.8rem; font-weight: 700; align-self: center; margin: auto 0; }
+
+.course-info {
+  padding: 1.6rem;
+}
+
+.course-name {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0.8rem;
+}
+
+.price-free {
+  color: #f05123;
+  font-weight: 700;
+  font-size: 1.4rem;
+  margin-bottom: 1.2rem;
+}
+
+.price-discount del {
+  font-size: 1.2rem;
+  color: #888;
+}
+
+.price-discount span {
+  color: #f05123;
+  font-weight: 700;
+  font-size: 1.4rem;
+  margin-left: 0.6rem;
+}
+
+.course-meta {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 0.8rem;
+}
+
+.instructor img {
+  width: 1.8rem;
+  height: 1.8rem;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.course-time {
+  font-size: 1.2rem;
+  color: #666;
+}

@@ -1,0 +1,115 @@
+.blog-container {
+  max-width: 840px;
+  margin: 4rem auto;
+  padding: 0 2rem;
+}
+
+.blog-title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 1.2rem;
+}
+
+.blog-desc {
+  font-size: 1.5rem;
+  color: #666;
+  margin-bottom: 3.2rem;
+}
+
+.post-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.post-card {
+  border: 1.5px solid #e8e8e8;
+  border-radius: 1.6rem;
+  padding: 2.4rem;
+  background-color: #fff;
+}
+
+.post-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.6rem;
+}
+
+.author-info {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.author-avatar {
+  width: 2.8rem;
+  height: 2.8rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.author-name {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #292929;
+}
+
+.verify-icon {
+  color: #1b74e4;
+  font-size: 1.2rem;
+}
+
+.post-actions {
+  display: flex;
+  gap: 1.6rem;
+  color: #666;
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+
+.post-body {
+  display: flex;
+  justify-content: space-between;
+  gap: 2.4rem;
+}
+
+.post-content {
+  flex: 1;
+}
+
+.post-title {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.4;
+  margin-bottom: 0.8rem;
+}
+
+.post-excerpt {
+  font-size: 1.4rem;
+  color: #505050;
+  line-height: 1.6;
+  margin-bottom: 1.6rem;
+}
+
+.post-meta {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  font-size: 1.3rem;
+  color: #666;
+}
+
+.tag {
+  background-color: #f2f2f2;
+  padding: 0.4rem 1rem;
+  border-radius: 1.2rem;
+  font-weight: 500;
+}
+
+.post-thumb img {
+  width: 20rem;
+  height: 11.2rem;
+  border-radius: 1.2rem;
+  object-fit: cover;
+}

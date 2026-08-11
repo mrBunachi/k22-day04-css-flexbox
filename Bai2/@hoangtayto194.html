@@ -1,14 +1,105 @@
 <!doctype html>
-<html lang="en">
+<html lang="vi">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Buổi 4 - Hoàng đẹp trai</title>
+    <title>Nguyễn Duy Hoàng (@hoangtayto194) - F8</title>
     <link rel="icon" type="image/png" href="../favicon.png" />
-    <link rel="stylesheet" href="reset.css" />
-    <link rel="stylesheet" href="" />
+    <link rel="stylesheet" href="../reset.css" />
+    <link rel="stylesheet" href="./profile.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://kit.fontawesome.com/856c95e1e2.js" crossorigin="anonymous"></script>
   </head>
   <body>
-    <h1></h1>
+    <div class="profile-wrapper">
+      <div class="profile-container">
+        <!-- Cột trái: Thông tin cá nhân -->
+        <aside class="left-column">
+          <div class="avatar-box">
+            <img src="https://files.f8.edu.vn/f8-prod/avatars/6a22258cb0225.jpg" alt="Avatar" class="profile-avatar" />
+          </div>
+          <h1 class="user-name">Nguyễn Duy Hoàng</h1>
+          <p class="user-handle">@hoangtayto194</p>
+
+          <ul class="user-stats">
+            <li><i class="fa-solid fa-user-group"></i> <span>0 người theo dõi • 0 đang theo dõi</span></li>
+            <li><i class="fa-solid fa-fire"></i> <span>4 ngày học liên tiếp</span></li>
+            <li><i class="fa-solid fa-certificate"></i> <span>1 chứng chỉ</span></li>
+            <li><i class="fa-solid fa-user-clock"></i> <span>Tham gia F8 từ 3 năm trước</span></li>
+            <li><i class="fa-solid fa-globe"></i> <a href="https://github.com/mrBunachi" target="_blank">https://github.com/mrBunachi</a></li>
+            <li><i class="fa-brands fa-facebook"></i> <a href="https://facebook.com" target="_blank">https://www.facebook.com/nguyen.duy.hoang.848511</a></li>
+          </ul>
+        </aside>
+
+        <!-- Cột phải: Khóa học đã đăng ký -->
+        <section class="right-column">
+          <nav class="profile-tabs">
+            <a href="#" class="tab-item active">
+              <i class="fa-solid fa-bookmark"></i> Khóa học đã đăng ký (10)
+            </a>
+            <a href="#" class="tab-item">
+              <i class="fa-regular fa-newspaper"></i> Bài viết đã đăng (0)
+            </a>
+          </nav>
+
+          <div class="course-list">
+            <!-- Card Khóa Học 1 -->
+            <div class="course-card">
+              <div class="course-thumb thumb-1">
+                <span class="crown-icon"><i class="fa-solid fa-crown"></i></span>
+                <span class="thumb-title">FullStack Online</span>
+              </div>
+              <div class="course-info">
+                <h3 class="course-name">Fullstack Web</h3>
+                <p class="price-free">Liên hệ</p>
+                <div class="course-meta">
+                  <span class="instructor"><img src="https://files.f8.edu.vn/f8-prod/avatars/1/623d4b2d3257f.png" alt="" /> Sơn Đặng</span>
+                  <span class="students"><i class="fa-solid fa-users"></i> 499</span>
+                </div>
+                <div class="course-time"><i class="fa-regular fa-clock"></i> 398 giờ 15 phút</div>
+              </div>
+            </div>
+
+            <!-- Card Khóa Học 2 -->
+            <div class="course-card">
+              <div class="course-thumb thumb-2">
+                <span class="crown-icon"><i class="fa-solid fa-crown"></i></span>
+                <span class="thumb-title">HTML, CSS Pro</span>
+              </div>
+              <div class="course-info">
+                <h3 class="course-name">HTML CSS Pro</h3>
+                <p class="price-discount"><del>2.500.000đ</del> <span>1.299.000đ</span></p>
+                <div class="course-meta">
+                  <span class="instructor"><img src="https://files.f8.edu.vn/f8-prod/avatars/1/623d4b2d3257f.png" alt="" /> Sơn Đặng</span>
+                  <span class="students"><i class="fa-solid fa-users"></i> 590</span>
+                </div>
+                <div class="course-time"><i class="fa-regular fa-clock"></i> 116 giờ 50 phút</div>
+              </div>
+            </div>
+
+            <!-- Card Khóa Học 3 -->
+            <div class="course-card">
+              <div class="course-thumb thumb-3">
+                <span class="thumb-title">Responsive @web design</span>
+              </div>
+              <div class="course-info">
+                <h3 class="course-name">Responsive Với Grid System</h3>
+                <p class="price-free">Miễn phí</p>
+                <div class="course-meta">
+                  <span class="students"><i class="fa-solid fa-users"></i> 48.700</span>
+                  <span class="views"><i class="fa-solid fa-play"></i> 34</span>
+                </div>
+                <div class="course-time"><i class="fa-regular fa-clock"></i> 6 giờ 31 phút</div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
   </body>
 </html>
